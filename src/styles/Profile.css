@@ -1,0 +1,82 @@
+/* Общие стили */
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: #9400D3;
+    margin-bottom: 20px;
+}
+
+
+.mb-3 {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-color: #9400D3;
+}
+
+.btn-primary {
+    background-color: #9400D3;
+    border-color: #9400D3;
+}
+
+.btn-primary:hover {
+    background-color: #7a00a3;
+    border-color: #7a00a3;
+}
+
+.btn-secondary {
+    background-color: #ccc;
+    border-color: #ccc;
+}
+
+.btn-secondary:hover {
+    background-color: #bbb;
+    border-color: #bbb;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+
+
+.card {
+    border-color: #9400D3;
+    border-width: 2px;
+}
+
+.card-title {
+    color: #9400D3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}

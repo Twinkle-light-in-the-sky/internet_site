@@ -1,0 +1,25 @@
+.HomeWrapper{
+    flex-wrap: wrap;
+}
+
+
+
+/* Стили для мобильных устройств */
+@media (max-width: 768px) {
+    .homepage-title{
+        font-size: 26px;
+    }
+    .homepage-subtitle{
+        font-size: 20px;
+    }
+}
+
+/* Стили для планшетов и ноутбуков */
+@media (min-width: 769px) and (max-width: 1440px) {
+
+}
+
+/* Стили для широкоформатных мониторов */
+@media (min-width: 1441px) {
+
+}

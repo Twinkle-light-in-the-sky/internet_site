@@ -1,0 +1,10 @@
+.card-img-top{
+    width: 5rem;
+    height: auto;
+}
+.card-text{
+    font-size: 20px;
+}
+.products-list{
+    height: max-content;
+}

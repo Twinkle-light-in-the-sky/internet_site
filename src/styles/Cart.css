@@ -1,0 +1,64 @@
+
+/* Стили для мобильных устройств */
+@media (max-width: 768px) {
+    .list-group-item{
+        flex-direction: column;
+    }
+}
+
+/* Стили для планшетов и ноутбуков */
+@media (min-width: 769px) and (max-width: 1440px) {
+
+}
+
+/* Стили для широкоформатных мониторов */
+@media (min-width: 1441px) {
+
+}
+
+.cart-list {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cart-item {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.btn-primary{
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover{
+    background-color: #0056b3;
+}
+
+.btn-danger{
+    background-color: #dc3545;
+}
+
+.btn-success{
+    background-color: #28a745;
+}
+
+
